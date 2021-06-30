@@ -1,0 +1,38 @@
+mutation insertGenres{
+  action: insertreference_list(value:{label:"genre" ,value:"Action" }){
+    value{value}
+  }
+   mystery: insertreference_list(value:{label:"genre" ,value:"Mystery" }){
+    value{value}
+  }
+   horror: insertreference_list(value:{label:"genre" ,value:"Horror" }){
+    value{value}
+  }
+   comedy: insertreference_list(value:{label:"genre" ,value:"Comedy" }){
+    value{value}
+  }
+   docudramas: insertreference_list(value:{label:"genre" ,value:"Docu-Dramas" }){
+    value{value}
+  }
+   drama: insertreference_list(value:{label:"genre" ,value:"Dramas" }){
+    value{value}
+  }
+   fantasy: insertreference_list(value:{label:"genre" ,value:"Fantasy" }){
+    value{value}
+  }
+   awardwinners: insertreference_list(value:{label:"genre" ,value:"Award-Winning" }){
+    value{value}
+  }
+   musicals: insertreference_list(value:{label:"genre" ,value:"Musicals" }){
+    value{value}
+  }
+   thriller: insertreference_list(value:{label:"genre" ,value:"Thriller" }){
+    value{value}
+  }
+   romance: insertreference_list(value:{label:"genre" ,value:"Romance" }){
+    value{value}
+  }
+   scifi: insertreference_list(value:{label:"genre" ,value:"Sci-fi" }){
+    value{value}
+  }
+}
